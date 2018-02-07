@@ -17,7 +17,7 @@ This is an "Swift Autolayout Tool" that is easy to read and easy to coding for i
 
 ## Installation
 
-You can integrate KLayout into your project manually.
+You can integrate RKLayoutLibrary into your project manually.
 
 ---
 
