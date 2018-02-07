@@ -144,7 +144,7 @@ extension NSLayoutConstraint {
      */
     @discardableResult
     func priority(_ priority: KLayoutPriority) -> NSLayoutConstraint {
-        self.priority = UILayoutPriority(rawValue: priority.rawValue)
+        self.priority = priority.rawValue
         return self
     }
     
@@ -193,8 +193,6 @@ extension NSLayoutConstraint {
     /// 倍數
     @discardableResult
     func multi(_ multi: CGFloat) -> NSLayoutConstraint {
-        guard let firstItem = firstItem else { fatalError("沒有目標物件") }
-        
         NSLayoutConstraint.deactivate([self])
         
         let newConstraint = NSLayoutConstraint(
