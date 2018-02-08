@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rick-ke/RKLayoutLibrary.git", :tag => "0.1.2" }
   # s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
-  s.swift_version = "= 3.2"
+  s.swift_version = "3.2"
   s.source_files = "RKLayoutLibrary/Source/**/*"
   s.frameworks   = "UIKit"
 end
