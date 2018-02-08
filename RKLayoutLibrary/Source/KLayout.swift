@@ -17,7 +17,7 @@ public enum KLayoutPriority: Float {
 }
 
 
-extension UIView {
+public extension UIView {
     
     /// 基礎版
     /// 閉包處理的layoutConstraint
@@ -133,7 +133,7 @@ extension UIView {
 }
 
 
-extension NSLayoutConstraint {
+public extension NSLayoutConstraint {
     
     /**
      layout的優先權
