@@ -42,6 +42,12 @@ Then, run the following command:
 $ pod install
 ```
 
+Open your Xcode proje and import library
+
+```swift
+import RKLayoutLibrary
+```
+
 ### Manually
 
 You can integrate RKLayoutLibrary into your project manually.
