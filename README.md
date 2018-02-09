@@ -17,6 +17,28 @@ This is an "Swift Autolayout Tool" that is easy to read and easy to coding for i
 
 ## Installation
 
+### CocoaPods
+
+To integrate RKLayoutLibrary into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target '[Your Target Name]' do
+    pod 'RKLayoutLibrary', '~> 0.1.2'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manually
+
 You can integrate RKLayoutLibrary into your project manually.
 
 ---
